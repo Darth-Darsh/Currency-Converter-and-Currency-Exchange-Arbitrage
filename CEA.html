@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aldeeran Currency Exchange</title>
+    <link rel="icon" type="image/x-icon" href="aldeeran.png" />
+    <link rel="stylesheet" href="CEAstyle.css" />
+  </head>
+  <body>
+    <button id="CC">Worldwide Currency<br> Exchange</button>
+
+    <div id="images"></div>
+
+    <img src="image.png" id="image2">
+
+    <h1 id="heading"><strong>Currency Exchange Arbitrage</strong></h1>
+
+    <div class="box">
+      <p>
+
+        <label for="currency1" style="margin-right:130px" id="fromlabel">Base Currency:</label>
+        <label for="currency2" id="tolabel">Target Currency:</label><br>
+        <select
+          id="currency1"
+          placeholder="Base Currency"
+          style="margin-right: 140px"
+        ></select>
+
+        <select id="currency2" placeholder="Target Currency"></select>
+
+        <br />
+        <p id="currency3">Best Paths:</p><br>
+        <p id="result1"> </p><p id="details1"></p>
+        <p id="result2"> </p><p id="details2"></p>
+        <p id="result3"> </p><p id="details3"></p>
+        <button id="find">Find</button>
+        </p>
+    </div>
+
+ 
+
+    <script src="CEAcode.js"></script>
+  </body>
+</html>
